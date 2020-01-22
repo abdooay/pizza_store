@@ -1,0 +1,122 @@
+[
+  {
+    "model": "menu.pizza",
+    "pk": 1,
+    "fields": {
+      "uuid": "56eaa6a2-fb87-4202-8917-9cbe74921486",
+      "name": "Salami",
+      "ingredients": "Salami, Olive",
+      "description": "Our famous salami Pizza"
+    }
+  },
+  {
+    "model": "menu.pizza",
+    "pk": 2,
+    "fields": {
+      "uuid": "1b5920bb-a6a5-4b07-9a59-6ff119ce2e6a",
+      "name": "Margrite",
+      "ingredients": "Chesse, Olive",
+      "description": "Thin Pizza"
+    }
+  },
+  {
+    "model": "menu.pizza",
+    "pk": 3,
+    "fields": {
+      "uuid": "578237bb-027e-4e9b-8deb-6128fcde3bbc",
+      "name": "Vegan Pizza",
+      "ingredients": "onion, pepper, olive",
+      "description": "Pizza for vegans"
+    }
+  },
+  {
+    "model": "menu.pizzaprice",
+    "pk": 1,
+    "fields": {
+      "uuid": "11a4ea97-2499-4ce1-814d-6c9ad36db756",
+      "pizza": 1,
+      "size": "S",
+      "price": 10
+    }
+  },
+  {
+    "model": "menu.pizzaprice",
+    "pk": 2,
+    "fields": {
+      "uuid": "ef7dcf47-85e8-410b-b1e0-b9d1e72d84ce",
+      "pizza": 1,
+      "size": "M",
+      "price": 15
+    }
+  },
+  {
+    "model": "menu.pizzaprice",
+    "pk": 3,
+    "fields": {
+      "uuid": "6bf462fd-6391-4b4b-bdcb-ff59ba412712",
+      "pizza": 1,
+      "size": "L",
+      "price": 20
+    }
+  },
+  {
+    "model": "menu.pizzaprice",
+    "pk": 4,
+    "fields": {
+      "uuid": "171229c8-f048-4214-9beb-44ff51ed9e75",
+      "pizza": 2,
+      "size": "S",
+      "price": 8
+    }
+  },
+  {
+    "model": "menu.pizzaprice",
+    "pk": 5,
+    "fields": {
+      "uuid": "a40026ef-2fe7-4153-a532-89c705ac2e08",
+      "pizza": 2,
+      "size": "M",
+      "price": 13
+    }
+  },
+  {
+    "model": "menu.pizzaprice",
+    "pk": 6,
+    "fields": {
+      "uuid": "15a7bb41-9461-4faf-81dd-c71bc013218a",
+      "pizza": 2,
+      "size": "L",
+      "price": 18
+    }
+  },
+  {
+    "model": "menu.pizzaprice",
+    "pk": 7,
+    "fields": {
+      "uuid": "399507a7-fc8b-44c9-b2d8-2f05e5694238",
+      "pizza": 3,
+      "size": "S",
+      "price": 9
+    }
+  },
+  {
+    "model": "menu.pizzaprice",
+    "pk": 8,
+    "fields": {
+      "uuid": "3ee5ed4a-3e26-47b3-ad3a-b49947829a6b",
+      "pizza": 3,
+      "size": "M",
+      "price": 14
+    }
+  },
+  {
+    "model": "menu.pizzaprice",
+    "pk": 9,
+    "fields": {
+      "uuid": "e7fcd752-49b0-467a-b643-614ab2088587",
+      "pizza": 3,
+      "size": "L",
+      "price": 19
+    }
+  }
+]
