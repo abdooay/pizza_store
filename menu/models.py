@@ -20,11 +20,12 @@ class Pizza(models.Model):
         return self.name
 
 
-class PizzaPrice(models.Model):
+class PizzaType(models.Model):
     uuid = models.UUIDField(default=uuid.uuid4, editable=False, unique=True)
-    pizza = models.ForeignKey(to=Pizza, on_delete=models.CASCADE)
+    pizza = models.ForeignKey(to=Pizza, on_delete=models.CASCADE, related_name='pizza_types')
     size = models.CharField(max_length=20, choices=PIZZA_SIZE)
     price = models.IntegerField()
+    preparation_time = models.IntegerField()
 
     class Meta:
         unique_together = ['pizza', 'size']
